@@ -13,7 +13,6 @@
        labels:
          app: eks-iam-test
      spec:
-       serviceAccountName: cluster-autoscaler
        containers:
        - name: eks-iam-test
          image: sdscello/awscli:2.0.12
